@@ -233,3 +233,194 @@ $radial-map: (
 
 html {background-color: #262626;}
 html, body {height: 100%;overflow: hidden;}
+
+
+   html, body {
+  background: #00CCFF;
+  overflow: hidden;
+  height: 100%;
+}
+
+#container  {
+  justify-content: center;
+  text-align: justify;
+  margin: 0 50px;
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+  margin: 20px auto -20px;
+}
+
+.crayon {
+  display: inline-block;
+  bottom: -250px;
+  position: relative;
+  -webkit-transition: .6s;
+  -moz-transition: .6s;
+  -ms-transition: .6s;
+  -o-transition: .6s;
+  transition: .6s;
+}
+
+.crayon:hover {
+  cursor: pointer;
+  bottom: -100px;
+}
+
+#container:after {
+  content: '';
+  width: 100%;
+  display: inline-block;
+}
+
+.top {
+  border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  width: 10px;
+  margin: auto;
+}
+
+.ring {
+  height: 15px;
+  width: 68px; 
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  margin: auto;
+}
+
+.body {
+  width: inherit;
+}
+
+.first {
+  height: 22px;
+}
+
+.second {
+  height: 12px;
+}
+
+.third {
+  height: 400px;
+}
+
+.stripe {
+  height: 12px;
+  width: inherit;
+  background: #191919;
+}
+
+
+/**********************
+Yellow
+**********************/
+
+.yellow .top {
+  border-bottom: 90px solid #FFCC00;
+}
+
+.yellow .ring {
+  background: #FFCC00;
+  border-top: 2px solid gold;
+}
+
+.yellow .body {
+  background: #FFD633;
+}
+
+
+/**********************
+Orange
+**********************/
+
+.orange .top {
+  border-bottom: 90px solid #FF6600;
+}
+
+.orange .ring {
+  background: #FF6600;
+  border-top: 2px solid #FF7519;
+}
+
+.orange .body {
+  background: #FF8533;
+}
+
+
+/**********************
+Red
+**********************/
+
+.red .top {
+  border-bottom: 90px solid #E60000;
+}
+
+.red .ring {
+  background: #E60000;
+  border-top: 2px solid #FF1919;
+}
+
+.red .body {
+  background: #EA3030;
+}
+
+
+/**********************
+Purple
+**********************/
+
+.purple .top {
+  border-bottom: 90px solid #660066;
+}
+
+.purple .ring {
+  background: #660066;
+  border-top: 2px solid purple;
+}
+
+.purple .body {
+  background: #853385;
+}
+
+
+/**********************
+Blue
+**********************/
+
+.blue .top {
+  border-bottom: 90px solid #0000CC;
+}
+
+.blue .ring {
+  background: #0000CC;
+  border-top: 2px solid #1919FF;
+}
+
+.blue .body {
+  background: #3333D6;
+}
+
+
+/**********************
+Green
+**********************/
+
+.green .top {
+  border-bottom: 90px solid #009900;
+}
+
+.green .ring {
+  background: #009900;
+  border-top: 2px solid #19A319;
+}
+
+.green .body {
+  background: #33AD33;
+}
+
